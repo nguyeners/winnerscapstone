@@ -1,0 +1,13 @@
+  [1m[35m (579.4ms)[0m  [1m[35mCREATE DATABASE "nguyeners_teamly_development" ENCODING = 'unicode'[0m
+  [1m[35m (545.4ms)[0m  [1m[35mCREATE DATABASE "nguyeners_teamly_test" ENCODING = 'unicode'[0m
+  [1m[35m (136.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "nguyeners_teamly_development"[0m
+  [1m[35m (100.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "nguyeners_teamly_test"[0m
+  [1m[35m (693.6ms)[0m  [1m[35mCREATE DATABASE "nguyeners_teamly_development" ENCODING = 'unicode'[0m
+  [1m[35m (309.1ms)[0m  [1m[35mCREATE DATABASE "nguyeners_teamly_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-04-20 10:10:38 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.6ms | Allocations: 742)
+Completed 200 OK in 60ms (Views: 27.6ms | ActiveRecord: 0.0ms | Allocations: 7007)
+
+
