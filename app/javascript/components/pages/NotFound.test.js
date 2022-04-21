@@ -1,3 +1,5 @@
+jest.mock('../assets/pngegg.png')
+
 // Imports React into our test file.
 import React from 'react'
 
@@ -7,16 +9,15 @@ import Enzyme, { shallow } from 'enzyme'
 // Imports Adapter utilizing the latest react version into our test file so we can run a testing render on any component we may need.
 import Adapter from 'enzyme-adapter-react-16'
 
-// Imports in the component we are going to be testing.
-import Edit from './Edit'
-
+import NotFound from './NotFound'
 //Allows us to utilize the adapter we import in earlier, allowing us to call and render a component.
 Enzyme.configure({adapter: new Adapter()})
 
-describe("When Edit renders", () => {
+
+describe("When EventIndex renders", () => {
   it("displays a heading", () => {
-    const edit = shallow(<Edit />)
-    const editHeading = edit.find("h1").text()
-    expect(editHeading).toEqual("Hello this is the edit page!")
+    const notFoundRendered = shallow(<NotFound />)
+    const notFoundHeading = notFoundRendered.find("h1").text()
+    expect(notFoundHeading).toEqual("Hello this is the not found page!")
   })
 })
