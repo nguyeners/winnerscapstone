@@ -1487,3 +1487,128 @@ Entrypoint server_rendering = js/server_rendering-e117adeed31a22e7fdc7.js js/ser
 Completed 200 OK in 8256ms (Views: 8244.1ms | ActiveRecord: 0.0ms | Allocations: 60451)
 
 
+Started GET "/Edit" for ::1 at 2022-04-21 10:43:33 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Edit"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 581)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 13f41b1b67db541c8038
+Version: webpack 4.46.0
+Time: 3857ms
+Built at: 04/21/2022 10:43:40 AM
+                                                                 Asset      Size            Chunks                         Chunk Names
+                                js/application-7d572dd8d7e1d19a2f9f.js  2.42 MiB       application  [emitted] [immutable]  application
+                            js/application-7d572dd8d7e1d19a2f9f.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                            js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                           js/server_rendering-c46f745d9f467a50fd87.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                       js/server_rendering-c46f745d9f467a50fd87.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                         manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/errorpage-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-7d572dd8d7e1d19a2f9f.js js/application-7d572dd8d7e1d19a2f9f.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-c46f745d9f467a50fd87.js js/server_rendering-c46f745d9f467a50fd87.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 622 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 139 hidden modules
+
+ERROR in ./app/javascript/components/pages/Edit.test.js
+Module not found: Error: Can't resolve 'enzyme' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Edit.test.js 4:0-41 10:0-6
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/server_rendering.js
+
+ERROR in ./app/javascript/components/pages/Edit.test.js
+Module not found: Error: Can't resolve 'enzyme-adapter-react-16' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Edit.test.js 6:0-46 11:15-22
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/server_rendering.js
+
+
+warning package.json: No license field
+
+  Rendered layout layouts/application.html.erb (Duration: 6931.8ms | Allocations: 8305)
+Completed 200 OK in 6939ms (Views: 6937.4ms | Allocations: 9122)
+
+
+Started GET "/Edit" for ::1 at 2022-04-21 10:43:46 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Edit"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 526)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 6898)
+Completed 200 OK in 30ms (Views: 26.5ms | Allocations: 7262)
+
+
+Started GET "/Edit" for ::1 at 2022-04-21 10:44:27 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (27.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Edit"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 1264)
+Started GET "/Edit" for ::1 at 2022-04-21 10:44:28 -0700
+[Webpacker] Everything's up-to-date. Nothing to do
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Edit"}
+  Rendered layout layouts/application.html.erb (Duration: 431.7ms | Allocations: 54946)
+Completed 200 OK in 457ms (Views: 443.8ms | ActiveRecord: 0.0ms | Allocations: 59298)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 551)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 7549)
+Completed 200 OK in 37ms (Views: 28.8ms | ActiveRecord: 0.0ms | Allocations: 8794)
+
+
+Started GET "/Edit" for ::1 at 2022-04-21 10:45:25 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Edit"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 23.0ms | Allocations: 579)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: d7560004ed2aa4ac2bd9
+Version: webpack 4.46.0
+Time: 4425ms
+Built at: 04/21/2022 10:45:33 AM
+                                                                 Asset      Size            Chunks                         Chunk Names
+                                js/application-2a346d413c9eace90bb3.js  2.42 MiB       application  [emitted] [immutable]  application
+                            js/application-2a346d413c9eace90bb3.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                            js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                           js/server_rendering-53dce0ccd81457dbb05f.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                       js/server_rendering-53dce0ccd81457dbb05f.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                         manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/errorpage-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-2a346d413c9eace90bb3.js js/application-2a346d413c9eace90bb3.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-53dce0ccd81457dbb05f.js js/server_rendering-53dce0ccd81457dbb05f.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 622 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 139 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7918.5ms | Allocations: 8571)
+Completed 200 OK in 7922ms (Views: 7920.3ms | ActiveRecord: 0.0ms | Allocations: 9390)
+
+
