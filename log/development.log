@@ -164,3 +164,986 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 5944)
 
 
+Started GET "/" for ::1 at 2022-04-20 15:30:11 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 22.8ms | Allocations: 1258)
+  Rendered layout layouts/application.html.erb (Duration: 1115.0ms | Allocations: 48026)
+Completed 200 OK in 1154ms (Views: 1128.1ms | ActiveRecord: 0.0ms | Allocations: 52356)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:30:37 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 5077)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms | Allocations: 5875)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:31:13 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 577)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 5154)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 5956)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:31:45 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 5069)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 5873)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:31:48 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 569)
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 5146)
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 0.0ms | Allocations: 5951)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:31:57 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 5156)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 5964)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:32:07 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 585)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 5071)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 5880)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:32:13 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 5156)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 5970)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:32:18 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 579)
+  Rendered layout layouts/application.html.erb (Duration: 53.1ms | Allocations: 5154)
+Completed 200 OK in 61ms (Views: 57.0ms | ActiveRecord: 0.0ms | Allocations: 5968)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:32:21 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 567)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 5053)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 5865)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:32:28 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 585)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 5160)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms | Allocations: 5977)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:32:31 -0700
+Started GET "/" for ::1 at 2022-04-20 15:38:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (26.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 1141.8ms | Allocations: 59624)
+Completed 200 OK in 1185ms (Views: 1170.1ms | ActiveRecord: 0.0ms | Allocations: 63972)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:45:09 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 5152)
+Completed 200 OK in 14ms (Views: 12.7ms | Allocations: 5967)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:45:47 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 579)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 5067)
+Completed 200 OK in 17ms (Views: 15.9ms | Allocations: 5880)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:48:28 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 569)
+  Rendered layout layouts/application.html.erb (Duration: 114.8ms | Allocations: 5061)
+Completed 200 OK in 134ms (Views: 130.7ms | Allocations: 5874)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:49:46 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 585)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 5077)
+Completed 200 OK in 26ms (Views: 23.1ms | Allocations: 5890)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:52:04 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 579)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 5156)
+Completed 200 OK in 18ms (Views: 15.1ms | Allocations: 5970)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:53:43 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 587)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 5081)
+Completed 200 OK in 16ms (Views: 14.1ms | Allocations: 5894)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:54:56 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 5156)
+Completed 200 OK in 26ms (Views: 24.2ms | Allocations: 5970)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:55:39 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 583)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 5158)
+Completed 200 OK in 31ms (Views: 28.8ms | Allocations: 5972)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:56:28 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 569)
+  Rendered layout layouts/application.html.erb (Duration: 49.7ms | Allocations: 5061)
+Completed 200 OK in 68ms (Views: 58.6ms | Allocations: 5874)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:56:36 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 538)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 5050)
+Completed 200 OK in 23ms (Views: 21.6ms | Allocations: 5412)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:56:39 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 534)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 4958)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 5318)
+
+
+Started GET "/EventIndex" for ::1 at 2022-04-20 15:56:47 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"EventIndex"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 528)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4951)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 5311)
+
+
+Started GET "/EventIndex" for ::1 at 2022-04-20 15:56:56 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"EventIndex"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 530)
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 4953)
+Completed 200 OK in 49ms (Views: 47.2ms | Allocations: 5313)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:57:29 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 538)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 4999)
+Completed 200 OK in 14ms (Views: 12.7ms | Allocations: 5360)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:57:35 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 579)
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 5116)
+Completed 200 OK in 50ms (Views: 47.8ms | Allocations: 5929)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:57:37 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 20.3ms | Allocations: 548)
+  Rendered layout layouts/application.html.erb (Duration: 40.8ms | Allocations: 5060)
+Completed 200 OK in 43ms (Views: 41.7ms | Allocations: 5421)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:57:39 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 528)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 4952)
+Completed 200 OK in 16ms (Views: 13.8ms | Allocations: 5312)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:57:40 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 4947)
+Completed 200 OK in 18ms (Views: 15.9ms | Allocations: 5307)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:57:43 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 32.1ms | Allocations: 4973)
+Completed 200 OK in 39ms (Views: 33.3ms | Allocations: 5333)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:57:47 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 532)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4993)
+Completed 200 OK in 14ms (Views: 9.7ms | Allocations: 5353)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 15:57:59 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 530)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 4953)
+Completed 200 OK in 21ms (Views: 17.7ms | Allocations: 5313)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 15:58:27 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 579)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 5065)
+Completed 200 OK in 21ms (Views: 19.7ms | Allocations: 5877)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 15:59:09 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 5156)
+Completed 200 OK in 50ms (Views: 48.1ms | Allocations: 5970)
+
+
+Started GET "/" for ::1 at 2022-04-20 15:59:14 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 532)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 4993)
+Completed 200 OK in 23ms (Views: 21.6ms | Allocations: 5354)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 15:59:17 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 4974)
+Completed 200 OK in 20ms (Views: 17.9ms | Allocations: 5334)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:00:05 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 573)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 5149)
+Completed 200 OK in 36ms (Views: 33.7ms | Allocations: 5963)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:00:08 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 5156)
+Completed 200 OK in 74ms (Views: 70.3ms | Allocations: 5970)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:00:36 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 569)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 5055)
+Completed 200 OK in 25ms (Views: 23.0ms | Allocations: 5867)
+
+
+Started GET "/Index" for ::1 at 2022-04-20 16:00:56 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Index"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 544)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 4967)
+Completed 200 OK in 11ms (Views: 10.3ms | Allocations: 5327)
+
+
+Started GET "/EventIndex" for ::1 at 2022-04-20 16:01:04 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"EventIndex"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 534)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4957)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 5317)
+
+
+Started GET "/" for ::1 at 2022-04-20 16:01:09 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 4965)
+Completed 200 OK in 16ms (Views: 14.6ms | Allocations: 5325)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:06:11 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 534)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 4957)
+Completed 200 OK in 19ms (Views: 16.4ms | Allocations: 5317)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:12:15 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 585)
+  Rendered layout layouts/application.html.erb (Duration: 38.9ms | Allocations: 5071)
+Completed 200 OK in 50ms (Views: 47.7ms | Allocations: 5883)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:12:39 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 5075)
+Completed 200 OK in 50ms (Views: 49.0ms | Allocations: 5887)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:12:51 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 36.9ms | Allocations: 5156)
+Completed 200 OK in 43ms (Views: 41.1ms | Allocations: 5970)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:13:04 -0700
+Started GET "/Show" for ::1 at 2022-04-20 16:14:08 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 18.6ms | Allocations: 1254)
+  Rendered layout layouts/application.html.erb (Duration: 858.6ms | Allocations: 52344)
+Completed 200 OK in 883ms (Views: 869.7ms | ActiveRecord: 0.0ms | Allocations: 56686)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:14:22 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 5067)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 5883)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:20:40 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 544)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 4975)
+Completed 200 OK in 26ms (Views: 23.1ms | Allocations: 5336)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:21:06 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 532)
+  Rendered layout layouts/application.html.erb (Duration: 28.6ms | Allocations: 4957)
+Completed 200 OK in 32ms (Views: 29.8ms | Allocations: 5317)
+
+
+Started GET "/Show" for ::1 at 2022-04-20 16:22:51 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"Show"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 577)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 5156)
+Completed 200 OK in 35ms (Views: 32.3ms | Allocations: 5970)
+
+
+Started GET "/NotFound" for ::1 at 2022-04-20 16:26:53 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 587)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 7cca2a1b61e2dc9088a9
+Version: webpack 4.46.0
+Time: 6711ms
+Built at: 04/20/2022 4:27:04 PM
+                                                                    Asset      Size            Chunks                         Chunk Names
+                                   js/application-080be48160af9df10f53.js  2.42 MiB       application  [emitted] [immutable]  application
+                               js/application-080be48160af9df10f53.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                   js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                               js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                              js/server_rendering-d918e6c5a2346954e225.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                          js/server_rendering-d918e6c5a2346954e225.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                            manifest.json  1.18 KiB                    [emitted]              
+media/components/assets/404soccerboy-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-080be48160af9df10f53.js js/application-080be48160af9df10f53.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-d918e6c5a2346954e225.js js/server_rendering-d918e6c5a2346954e225.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 581 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+WARNING in ./app/javascript/components/pages/NotFound.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages/NotFound.js: Unterminated JSX contents. (10:9)
+
+   8 |         <img src='/assets/404soccerboy.png'>
+   9 |         <h1>Hello this is the not found page!</h1>
+> 10 |       </>
+     |          ^
+  11 |     )
+  12 |   }
+  13 | }
+    at instantiate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:3335:19)
+    at Object.jsxReadToken (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7627:20)
+    at Object.getTokenFromCode (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8047:19)
+    at Object.nextToken (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:2019:10)
+    at Object.next (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:1923:10)
+    at Object.eat (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:1928:12)
+    at Object.expect (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:4002:10)
+    at Object.jsxParseClosingElementAt (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7918:12)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7942:37)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7946:32)
+    at Object.jsxParseElement (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8015:17)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8029:19)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12540:23)
+    at Object.parseUpdate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12519:21)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12490:23)
+    at Object.parseMaybeUnaryOrPrivate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12284:61)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12291:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12261:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12214:21)
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12172:39
+    at Object.allowInAnd (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14242:12)
+    at Object.parseMaybeAssignAllowIn (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12172:17)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:13297:28)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12868:23)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8034:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12540:23)
+    at Object.parseUpdate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12519:21)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12490:23)
+ @ ./app/javascript/components sync ^\.\/.*$ ./pages/NotFound.js
+ @ ./app/javascript/packs/application.js
+
+  Rendered layout layouts/application.html.erb (Duration: 11620.0ms | Allocations: 8481)
+Completed 200 OK in 11627ms (Views: 11624.1ms | Allocations: 9293)
+
+
+Started GET "/packs/js/application-bcee4130fc9274e4f323.js" for ::1 at 2022-04-20 16:27:31 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-bcee4130fc9274e4f323.js"):
+  
+Started GET "/NotFound" for ::1 at 2022-04-20 16:27:37 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 581)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: d3961aaf6a1bf42aaefa
+Version: webpack 4.46.0
+Time: 5398ms
+Built at: 04/20/2022 4:27:46 PM
+                                                                    Asset      Size            Chunks                         Chunk Names
+                                   js/application-6c892171aefcfe9ad4f6.js  2.42 MiB       application  [emitted] [immutable]  application
+                               js/application-6c892171aefcfe9ad4f6.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                   js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                               js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                              js/server_rendering-ada4a0483164df6d220d.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                          js/server_rendering-ada4a0483164df6d220d.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                            manifest.json  1.18 KiB                    [emitted]              
+media/components/assets/404soccerboy-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-6c892171aefcfe9ad4f6.js js/application-6c892171aefcfe9ad4f6.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-ada4a0483164df6d220d.js js/server_rendering-ada4a0483164df6d220d.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 581 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+WARNING in ./app/javascript/components/pages/NotFound.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages/NotFound.js: Unterminated JSX contents. (10:9)
+
+   8 |         <img src='./assets/404soccerboy.png'>
+   9 |         <h1>Hello this is the not found page!</h1>
+> 10 |       </>
+     |          ^
+  11 |     )
+  12 |   }
+  13 | }
+    at instantiate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:3335:19)
+    at Object.jsxReadToken (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7627:20)
+    at Object.getTokenFromCode (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8047:19)
+    at Object.nextToken (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:2019:10)
+    at Object.next (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:1923:10)
+    at Object.eat (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:1928:12)
+    at Object.expect (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:4002:10)
+    at Object.jsxParseClosingElementAt (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7918:12)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7942:37)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7946:32)
+    at Object.jsxParseElement (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8015:17)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8029:19)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12540:23)
+    at Object.parseUpdate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12519:21)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12490:23)
+    at Object.parseMaybeUnaryOrPrivate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12284:61)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12291:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12261:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12214:21)
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12172:39
+    at Object.allowInAnd (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14242:12)
+    at Object.parseMaybeAssignAllowIn (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12172:17)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:13297:28)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12868:23)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8034:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12540:23)
+    at Object.parseUpdate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12519:21)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12490:23)
+ @ ./app/javascript/components sync ^\.\/.*$ ./pages/NotFound.js
+ @ ./app/javascript/packs/server_rendering.js
+
+  Rendered layout layouts/application.html.erb (Duration: 9574.2ms | Allocations: 8475)
+Completed 200 OK in 9579ms (Views: 9577.6ms | Allocations: 9288)
+
+
+Started GET "/NotFound" for ::1 at 2022-04-20 16:28:10 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 575)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 33dfe2d4b3c2c4d72619
+Version: webpack 4.46.0
+Time: 5630ms
+Built at: 04/20/2022 4:28:20 PM
+                                                                    Asset      Size            Chunks                         Chunk Names
+                                   js/application-cc89ffba34cacaec29ac.js  2.42 MiB       application  [emitted] [immutable]  application
+                               js/application-cc89ffba34cacaec29ac.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                   js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                               js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                              js/server_rendering-11e07a7e8fec5baf6073.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                          js/server_rendering-11e07a7e8fec5baf6073.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                            manifest.json  1.18 KiB                    [emitted]              
+media/components/assets/404soccerboy-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-cc89ffba34cacaec29ac.js js/application-cc89ffba34cacaec29ac.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-11e07a7e8fec5baf6073.js js/server_rendering-11e07a7e8fec5baf6073.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 581 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+WARNING in ./app/javascript/components/pages/NotFound.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages/NotFound.js: Unterminated JSX contents. (10:9)
+
+   8 |         <img src='./components/assets/404soccerboy.png'>
+   9 |         <h1>Hello this is the not found page!</h1>
+> 10 |       </>
+     |          ^
+  11 |     )
+  12 |   }
+  13 | }
+    at instantiate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:3335:19)
+    at Object.jsxReadToken (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7627:20)
+    at Object.getTokenFromCode (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8047:19)
+    at Object.nextToken (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:2019:10)
+    at Object.next (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:1923:10)
+    at Object.eat (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:1928:12)
+    at Object.expect (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:4002:10)
+    at Object.jsxParseClosingElementAt (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7918:12)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7942:37)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:7946:32)
+    at Object.jsxParseElement (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8015:17)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8029:19)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12540:23)
+    at Object.parseUpdate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12519:21)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12490:23)
+    at Object.parseMaybeUnaryOrPrivate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12284:61)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12291:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12261:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12214:21)
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12172:39
+    at Object.allowInAnd (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14242:12)
+    at Object.parseMaybeAssignAllowIn (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12172:17)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:13297:28)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12868:23)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8034:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12540:23)
+    at Object.parseUpdate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12519:21)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:12490:23)
+ @ ./app/javascript/components sync ^\.\/.*$ ./pages/NotFound.js
+ @ ./app/javascript/packs/application.js
+
+  Rendered layout layouts/application.html.erb (Duration: 9750.9ms | Allocations: 8347)
+Completed 200 OK in 9760ms (Views: 9755.8ms | Allocations: 9159)
+
+
+Started GET "/NotFound" for ::1 at 2022-04-20 16:29:36 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 577)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 3314af02e8e5741d0f15
+Version: webpack 4.46.0
+Time: 5305ms
+Built at: 04/20/2022 4:29:45 PM
+                                                                    Asset      Size            Chunks                         Chunk Names
+                                   js/application-08670c5b02211bdfbc05.js  2.42 MiB       application  [emitted] [immutable]  application
+                               js/application-08670c5b02211bdfbc05.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                   js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                               js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                              js/server_rendering-ee237879a44d3d68cd4e.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                          js/server_rendering-ee237879a44d3d68cd4e.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                            manifest.json  1.18 KiB                    [emitted]              
+media/components/assets/404soccerboy-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-08670c5b02211bdfbc05.js js/application-08670c5b02211bdfbc05.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-ee237879a44d3d68cd4e.js js/server_rendering-ee237879a44d3d68cd4e.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 581 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+WARNING in ./app/javascript/components/pages/NotFound.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages/NotFound.js: Identifier directly after number. (2:10)
+
+  1 | import React, { Component } from 'react'
+> 2 | import 404soccerboy from '../assets/404soccerboy.jpeg'
+    |           ^
+  3 |
+  4 | class NotFound extends Component {
+  5 |   render() {
+    at instantiate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:3335:19)
+    at Object.readNumber (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:2973:18)
+    at Object.getTokenFromCode (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:2612:14)
+    at Object.getTokenFromCode (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8070:18)
+    at Object.nextToken (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:2019:10)
+    at Object.next (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:1923:10)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14639:16)
+    at Object.parseStatement (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14533:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:15176:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:15167:10)
+    at Object.parseProgram (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14451:10)
+    at Object.parseTopLevel (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14438:25)
+    at Object.parse (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:16401:10)
+    at parse (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:16453:38)
+    at parser (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/parser/index.js:52:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/transformation/normalize-file.js:87:38)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/transformation/index.js:31:50)
+    at run.next (<anonymous>)
+    at Function.transform (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/transform.js:25:41)
+    at transform.next (<anonymous>)
+    at step (/Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:261:32)
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:223:11)
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:189:28
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/gensync-utils/async.js:74:7
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:113:33
+ @ ./app/javascript/components sync ^\.\/.*$ ./pages/NotFound.js
+ @ ./app/javascript/packs/application.js
+
+  Rendered layout layouts/application.html.erb (Duration: 8948.2ms | Allocations: 8434)
+Completed 200 OK in 8960ms (Views: 8951.2ms | Allocations: 9248)
+
+
+Started GET "/NotFound" for ::1 at 2022-04-20 16:30:03 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 581)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 1ad0a4fb6959dc689a83
+Version: webpack 4.46.0
+Time: 4713ms
+Built at: 04/20/2022 4:30:12 PM
+                                                                    Asset      Size            Chunks                         Chunk Names
+                                   js/application-bd4b3602c57784dfbe67.js  2.42 MiB       application  [emitted] [immutable]  application
+                               js/application-bd4b3602c57784dfbe67.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                   js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                               js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                              js/server_rendering-9987fe525730dc62d093.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                          js/server_rendering-9987fe525730dc62d093.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                            manifest.json  1.18 KiB                    [emitted]              
+media/components/assets/404soccerboy-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-bd4b3602c57784dfbe67.js js/application-bd4b3602c57784dfbe67.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-9987fe525730dc62d093.js js/server_rendering-9987fe525730dc62d093.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 581 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+WARNING in ./app/javascript/components/pages/NotFound.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages/NotFound.js: Identifier directly after number. (2:10)
+
+  1 | import React, { Component } from 'react'
+> 2 | import 404soccerboy from '../assets/404soccerboy.png'
+    |           ^
+  3 |
+  4 | class NotFound extends Component {
+  5 |   render() {
+    at instantiate (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:3335:19)
+    at Object.readNumber (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:2973:18)
+    at Object.getTokenFromCode (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:2612:14)
+    at Object.getTokenFromCode (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:8070:18)
+    at Object.nextToken (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:2019:10)
+    at Object.next (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:1923:10)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14639:16)
+    at Object.parseStatement (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14533:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:15176:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:15167:10)
+    at Object.parseProgram (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14451:10)
+    at Object.parseTopLevel (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:14438:25)
+    at Object.parse (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:16401:10)
+    at parse (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/parser/lib/index.js:16453:38)
+    at parser (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/parser/index.js:52:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/transformation/normalize-file.js:87:38)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/transformation/index.js:31:50)
+    at run.next (<anonymous>)
+    at Function.transform (/Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/transform.js:25:41)
+    at transform.next (<anonymous>)
+    at step (/Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:261:32)
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:223:11)
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:189:28
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/@babel/core/lib/gensync-utils/async.js:74:7
+    at /Users/learnacademy/Desktop/winnerscapstone/node_modules/gensync/index.js:113:33
+ @ ./app/javascript/components sync ^\.\/.*$ ./pages/NotFound.js
+ @ ./app/javascript/packs/application.js
+
+  Rendered layout layouts/application.html.erb (Duration: 8825.2ms | Allocations: 8549)
+Completed 200 OK in 8837ms (Views: 8834.7ms | Allocations: 9362)
+
+
+Started GET "/NotFound" for ::1 at 2022-04-20 16:30:25 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (8.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 18.4ms | Allocations: 1256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 618.8ms | Allocations: 55875)
+Completed 200 OK in 653ms (Views: 636.1ms | ActiveRecord: 0.0ms | Allocations: 60223)
+
+
+Started GET "/NotFound" for ::1 at 2022-04-20 16:32:19 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 569)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 89c3c7568758a22f072d
+Version: webpack 4.46.0
+Time: 2515ms
+Built at: 04/20/2022 4:32:23 PM
+                                                                 Asset      Size            Chunks                         Chunk Names
+                                js/application-06a30cdb0d27a850acf0.js  2.42 MiB       application  [emitted] [immutable]  application
+                            js/application-06a30cdb0d27a850acf0.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                            js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                           js/server_rendering-2d96f307c4ef6d93b910.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                       js/server_rendering-2d96f307c4ef6d93b910.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                         manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/errorpage-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-06a30cdb0d27a850acf0.js js/application-06a30cdb0d27a850acf0.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-2d96f307c4ef6d93b910.js js/server_rendering-2d96f307c4ef6d93b910.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 575 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 4126.4ms | Allocations: 8506)
+Completed 200 OK in 4130ms (Views: 4128.2ms | ActiveRecord: 0.0ms | Allocations: 9324)
+
+
+Started GET "/" for ::1 at 2022-04-21 10:01:34 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (45.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1260)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 619.6ms | Allocations: 52837)
+Completed 200 OK in 642ms (Views: 629.9ms | ActiveRecord: 0.0ms | Allocations: 57184)
+
+
+Started GET "/NotFound" for ::1 at 2022-04-21 10:01:46 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 528)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 6887)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 7252)
+
+
