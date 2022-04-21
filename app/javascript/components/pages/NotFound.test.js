@@ -1,4 +1,3 @@
-jest.mock('../assets/pngegg.png')
 
 // Imports React into our test file.
 import React from 'react'
@@ -10,14 +9,20 @@ import Enzyme, { shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 
 import NotFound from './NotFound'
+
 //Allows us to utilize the adapter we import in earlier, allowing us to call and render a component.
 Enzyme.configure({adapter: new Adapter()})
 
 
-describe("When EventIndex renders", () => {
+describe("When NotFound renders", () => {
   it("displays a heading", () => {
     const notFoundRendered = shallow(<NotFound />)
     const notFoundHeading = notFoundRendered.find("h1").text()
     expect(notFoundHeading).toEqual("Hello this is the not found page!")
+  })
+  it("displays an image of a little kid playing soccer", () => {
+    const soccerBoy = shallow(<NotFound />)
+    const imageLoaded = soccerBoy.find('img').prop('src')
+    expect(imageLoaded).toEqual('../assets/pngegg.png')
   })
 })
