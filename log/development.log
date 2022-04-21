@@ -1195,3 +1195,295 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 66ms (Views: 63.7ms | Allocations: 7890)
 
 
+Started GET "/EventIndex" for ::1 at 2022-04-21 10:28:08 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"EventIndex"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 583)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: f613a0e1f1b9443f3ac4
+Version: webpack 4.46.0
+Time: 5950ms
+Built at: 04/21/2022 10:28:17 AM
+                                                                 Asset      Size            Chunks                         Chunk Names
+                                js/application-fc57405b3daf92290f20.js  2.42 MiB       application  [emitted] [immutable]  application
+                            js/application-fc57405b3daf92290f20.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                            js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                           js/server_rendering-3c123cace3baec34a667.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                       js/server_rendering-3c123cace3baec34a667.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                         manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/errorpage-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-fc57405b3daf92290f20.js js/application-fc57405b3daf92290f20.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-3c123cace3baec34a667.js js/server_rendering-3c123cace3baec34a667.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 575 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+ERROR in ./app/javascript/components/pages/EventIndex.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/EventIndex.js 25:0-41 55:77-83
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/NotFound.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/NotFound.js 26:0-41 64:80-86
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Home.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Home.js 25:0-41 55:66-72
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/New.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/New.js 25:0-41 55:74-80
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Show.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Show.js 25:0-41 55:75-81
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Edit.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Edit.js 25:0-41 55:75-81
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/EventIndex.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/EventIndex.js 24:0-41 41:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/NotFound.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/NotFound.js 25:0-41 42:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Home.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Home.js 24:0-41 41:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/New.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/New.js 24:0-41 41:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Show.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Show.js 24:0-41 41:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Edit.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Edit.js 24:0-41 41:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+
+warning package.json: No license field
+
+  Rendered layout layouts/application.html.erb (Duration: 9530.0ms | Allocations: 8290)
+Completed 200 OK in 9536ms (Views: 9534.3ms | Allocations: 9103)
+
+
+Started GET "/EventIndex" for ::1 at 2022-04-21 10:30:21 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"EventIndex"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 573)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 6e5246006bb779a52a0c
+Version: webpack 4.46.0
+Time: 5183ms
+Built at: 04/21/2022 10:30:30 AM
+                                                                 Asset      Size            Chunks                         Chunk Names
+                                js/application-ab325ef54789feae06ed.js  2.42 MiB       application  [emitted] [immutable]  application
+                            js/application-ab325ef54789feae06ed.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                            js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                           js/server_rendering-46be92093b191a894891.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                       js/server_rendering-46be92093b191a894891.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                         manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/errorpage-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-ab325ef54789feae06ed.js js/application-ab325ef54789feae06ed.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-46be92093b191a894891.js js/server_rendering-46be92093b191a894891.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 575 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+ERROR in ./app/javascript/components/pages/Home.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Home.js 25:0-41 55:66-72
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Edit.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Edit.js 25:0-41 55:75-81
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/New.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/New.js 25:0-41 55:74-80
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/NotFound.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/NotFound.js 26:0-41 64:80-86
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Show.js
+Module not found: Error: Can't resolve './components/Footer' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Show.js 25:0-41 55:75-81
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Home.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Home.js 24:0-41 41:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Edit.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Edit.js 24:0-41 41:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/New.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/New.js 24:0-41 41:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/NotFound.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/NotFound.js 25:0-41 42:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/pages/Show.js
+Module not found: Error: Can't resolve './components/Header' in '/Users/learnacademy/Desktop/winnerscapstone/app/javascript/components/pages'
+ @ ./app/javascript/components/pages/Show.js 24:0-41 41:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+
+warning package.json: No license field
+
+  Rendered layout layouts/application.html.erb (Duration: 8494.2ms | Allocations: 8284)
+Completed 200 OK in 8502ms (Views: 8499.6ms | Allocations: 9096)
+
+
+Started GET "/EventIndex" for ::1 at 2022-04-21 10:31:31 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"EventIndex"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 581)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 3238bbe812c920d4e861
+Version: webpack 4.46.0
+Time: 3526ms
+Built at: 04/21/2022 10:31:37 AM
+                                                                 Asset      Size            Chunks                         Chunk Names
+                                js/application-cf23913da84d3905c9de.js  2.42 MiB       application  [emitted] [immutable]  application
+                            js/application-cf23913da84d3905c9de.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                            js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                           js/server_rendering-d7edb03ffeebbb12b0ca.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                       js/server_rendering-d7edb03ffeebbb12b0ca.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                         manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/errorpage-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-cf23913da84d3905c9de.js js/application-cf23913da84d3905c9de.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-d7edb03ffeebbb12b0ca.js js/server_rendering-d7edb03ffeebbb12b0ca.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 575 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6255.5ms | Allocations: 8356)
+Completed 200 OK in 6261ms (Views: 6259.6ms | Allocations: 9169)
+
+
+Started GET "/EventIndex" for ::1 at 2022-04-21 10:33:40 -0700
+Started GET "/EventIndex" for ::1 at 2022-04-21 10:34:04 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"EventIndex"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 1242)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 98fdae8c3a4e3dc585ad
+Version: webpack 4.46.0
+Time: 3846ms
+Built at: 04/21/2022 10:34:12 AM
+                                                                 Asset      Size            Chunks                         Chunk Names
+                                js/application-7267e0f58d9994013ff4.js  2.42 MiB       application  [emitted] [immutable]  application
+                            js/application-7267e0f58d9994013ff4.js.map  2.55 MiB       application  [emitted] [dev]        application
+                                js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                            js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                           js/server_rendering-e117adeed31a22e7fdc7.js  2.42 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                       js/server_rendering-e117adeed31a22e7fdc7.js.map  2.55 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                         manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/errorpage-7a4ecd62aaf09e8541c28fc7fff9aa52.png  45.7 KiB                    [emitted]              
+Entrypoint application = js/application-7267e0f58d9994013ff4.js js/application-7267e0f58d9994013ff4.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-e117adeed31a22e7fdc7.js js/server_rendering-e117adeed31a22e7fdc7.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 575 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 138 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 8232.1ms | Allocations: 56103)
+Completed 200 OK in 8256ms (Views: 8244.1ms | ActiveRecord: 0.0ms | Allocations: 60451)
+
+

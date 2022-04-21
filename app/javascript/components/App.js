@@ -28,9 +28,9 @@ class App extends Component {
     console.log("sign_in_route:", sign_in_route)
     console.log("sign_out_route:", sign_out_route)
     return(
-      <>
-      <Header />
+
       <Router>
+      <Header />
         <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/EventIndex' component={EventIndex} />
@@ -39,10 +39,10 @@ class App extends Component {
         <Route path='/New' component={New} />
         <Route component={NotFound} />
         </Switch>
-      </Router>
       <Footer />
+      </Router>
 
-      </>
+
     )
   }
 }
