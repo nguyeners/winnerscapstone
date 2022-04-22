@@ -4,7 +4,7 @@ import { Nav, NavItem, NavLink } from 'reactstrap'
 class Header extends Component {
   render() {
     return(
-      <>
+
       <div>
         <h1>Teamly</h1>
         <Nav>
@@ -27,7 +27,6 @@ class Header extends Component {
         <hr />
       </div>
 
-      </>
     )
   }
 }
