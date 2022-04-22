@@ -9,10 +9,10 @@ class Header extends Component {
         <h1>Teamly</h1>
         <Nav>
           <NavItem>
-            <NavLink href="#">Home</NavLink>
+            <NavLink href="/">Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Event Listing</NavLink>
+            <NavLink href="/EventIndex">Event Listing</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="#">About Us</NavLink>

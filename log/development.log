@@ -2050,3 +2050,143 @@ Completed 200 OK in 15457ms (Views: 15450.8ms | Allocations: 9421)
   
 ActionController::RoutingError (No route matches [GET] "/assets/pngegg.png"):
   
+Started GET "/NotFound" for ::1 at 2022-04-22 10:12:06 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 577)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 745eca5af4e853334a96
+Version: webpack 4.46.0
+Time: 9673ms
+Built at: 04/22/2022 10:12:20 AM
+                                                              Asset      Size            Chunks                         Chunk Names
+                             js/application-1d007a8a93bec4510f98.js  4.18 MiB       application  [emitted] [immutable]  application
+                         js/application-1d007a8a93bec4510f98.js.map   4.4 MiB       application  [emitted] [dev]        application
+                             js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                         js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                        js/server_rendering-db66f9b57d436f5139d4.js  4.18 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                    js/server_rendering-db66f9b57d436f5139d4.js.map   4.4 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                      manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/pngegg-64900761818ec48d3eaf814caa75c6df.png   359 KiB                    [emitted]              
+Entrypoint application = js/application-1d007a8a93bec4510f98.js js/application-1d007a8a93bec4510f98.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-db66f9b57d436f5139d4.js js/server_rendering-db66f9b57d436f5139d4.js.map
+[0] ./util.inspect (ignored) 15 bytes {application} {server_rendering} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 869 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 458 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 14015.6ms | Allocations: 8576)
+Completed 200 OK in 14025ms (Views: 14021.9ms | Allocations: 9408)
+
+
+Started GET "/NotFound" for ::1 at 2022-04-22 10:12:38 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"NotFound"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 581)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: af36d07004b41048a0de
+Version: webpack 4.46.0
+Time: 11717ms
+Built at: 04/22/2022 10:12:54 AM
+                                                              Asset      Size            Chunks                         Chunk Names
+                             js/application-611da355279c0aeb5b80.js  4.18 MiB       application  [emitted] [immutable]  application
+                         js/application-611da355279c0aeb5b80.js.map   4.4 MiB       application  [emitted] [dev]        application
+                             js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                         js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                        js/server_rendering-ec6398e5e1a0ca7d5518.js  4.18 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                    js/server_rendering-ec6398e5e1a0ca7d5518.js.map   4.4 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                      manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/pngegg-64900761818ec48d3eaf814caa75c6df.png   359 KiB                    [emitted]              
+Entrypoint application = js/application-611da355279c0aeb5b80.js js/application-611da355279c0aeb5b80.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-ec6398e5e1a0ca7d5518.js js/server_rendering-ec6398e5e1a0ca7d5518.js.map
+[0] ./util.inspect (ignored) 15 bytes {application} {server_rendering} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 869 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 458 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 16042.9ms | Allocations: 8672)
+Completed 200 OK in 16052ms (Views: 16048.4ms | Allocations: 9503)
+
+
+Started GET "/" for ::1 at 2022-04-22 10:13:11 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 538)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 6934)
+Completed 200 OK in 41ms (Views: 38.9ms | Allocations: 7313)
+
+
+Started GET "/" for ::1 at 2022-04-22 10:13:46 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 571)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 6280f84cd9c04693b031
+Version: webpack 4.46.0
+Time: 9220ms
+Built at: 04/22/2022 10:13:59 AM
+                                                              Asset      Size            Chunks                         Chunk Names
+                             js/application-23313acf5b9354af2567.js  4.18 MiB       application  [emitted] [immutable]  application
+                         js/application-23313acf5b9354af2567.js.map   4.4 MiB       application  [emitted] [dev]        application
+                             js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                         js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                        js/server_rendering-8f83be8b602ff7918826.js  4.18 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                    js/server_rendering-8f83be8b602ff7918826.js.map   4.4 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                      manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/pngegg-64900761818ec48d3eaf814caa75c6df.png   359 KiB                    [emitted]              
+Entrypoint application = js/application-23313acf5b9354af2567.js js/application-23313acf5b9354af2567.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-8f83be8b602ff7918826.js js/server_rendering-8f83be8b602ff7918826.js.map
+[0] ./util.inspect (ignored) 15 bytes {application} {server_rendering} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 869 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 458 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 13058.9ms | Allocations: 8456)
+Completed 200 OK in 13072ms (Views: 13069.4ms | Allocations: 9287)
+
+
+Started GET "/EventIndex" for ::1 at 2022-04-22 10:14:10 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"EventIndex"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 538)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 6960)
+Completed 200 OK in 26ms (Views: 24.5ms | Allocations: 7339)
+
+
