@@ -18,7 +18,10 @@ class Header extends Component {
             <NavLink href="#">About Us</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink disabled href="#">Disabled Link</NavLink>
+            <NavLink href="/users/sign_in">Sign In</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/users/sign_up">Sign Up</NavLink>
           </NavItem>
         </Nav>
         <hr />

@@ -2190,3 +2190,239 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 26ms (Views: 24.5ms | Allocations: 7339)
 
 
+Started GET "/sign-in" for ::1 at 2022-04-22 10:53:19 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"sign-in"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 532)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 6948)
+Completed 200 OK in 44ms (Views: 40.9ms | Allocations: 7327)
+
+
+Started GET "/user/sign-in" for ::1 at 2022-04-22 10:53:30 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"user/sign-in"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 530)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 6944)
+Completed 200 OK in 33ms (Views: 30.3ms | Allocations: 7322)
+
+
+Started GET "/user/sign-in" for ::1 at 2022-04-22 10:53:34 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"user/sign-in"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 538)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 7041)
+Completed 200 OK in 28ms (Views: 26.3ms | Allocations: 7421)
+
+
+Started GET "/user/sign-up" for ::1 at 2022-04-22 10:53:40 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"user/sign-up"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 540)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 6954)
+Completed 200 OK in 17ms (Views: 15.0ms | Allocations: 7332)
+
+
+Started GET "/users/sign-up" for ::1 at 2022-04-22 10:54:07 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"users/sign-up"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 542)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 6956)
+Completed 200 OK in 19ms (Views: 17.5ms | Allocations: 7334)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-04-22 10:54:18 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 1.3ms | Allocations: 242)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 2.1ms | Allocations: 658)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 43.8ms | Allocations: 8783)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.2ms | Allocations: 15313)
+Completed 200 OK in 145ms (Views: 67.1ms | ActiveRecord: 49.0ms | Allocations: 24795)
+
+
+Started GET "/" for ::1 at 2022-04-22 10:55:16 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 581)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2022-04-22 10:55:20 -0700
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 49b41d648c19c2b8e84a
+Version: webpack 4.46.0
+Time: 5353ms
+Built at: 04/22/2022 10:55:24 AM
+                                                              Asset      Size            Chunks                         Chunk Names
+                             js/application-b107b487b0321beffffc.js  4.18 MiB       application  [emitted] [immutable]  application
+                         js/application-b107b487b0321beffffc.js.map   4.4 MiB       application  [emitted] [dev]        application
+                             js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                         js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                        js/server_rendering-2fad3e96efb29b5fe0c8.js  4.18 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                    js/server_rendering-2fad3e96efb29b5fe0c8.js.map   4.4 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                      manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/pngegg-64900761818ec48d3eaf814caa75c6df.png   359 KiB                    [emitted]              
+Entrypoint application = js/application-b107b487b0321beffffc.js js/application-b107b487b0321beffffc.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-2fad3e96efb29b5fe0c8.js js/server_rendering-2fad3e96efb29b5fe0c8.js.map
+[0] ./util.inspect (ignored) 15 bytes {application} {server_rendering} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 869 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 458 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 8112.4ms | Allocations: 9715)
+Completed 200 OK in 8115ms (Views: 8113.8ms | ActiveRecord: 0.0ms | Allocations: 10548)
+
+
+Started GET "/" for ::1 at 2022-04-22 10:55:25 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 590)
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 541)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 14030)
+Completed 200 OK in 42ms (Views: 39.0ms | ActiveRecord: 0.0ms | Allocations: 14938)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 8444)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 10894)
+
+
+Started GET "/" for ::1 at 2022-04-22 10:55:41 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 583)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: e566acbb4939e1201091
+Version: webpack 4.46.0
+Time: 4961ms
+Built at: 04/22/2022 10:55:48 AM
+                                                              Asset      Size            Chunks                         Chunk Names
+                             js/application-81264abc138e4a5ac726.js  4.18 MiB       application  [emitted] [immutable]  application
+                         js/application-81264abc138e4a5ac726.js.map   4.4 MiB       application  [emitted] [dev]        application
+                             js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                         js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                        js/server_rendering-899e108660b33d91c571.js  4.18 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                    js/server_rendering-899e108660b33d91c571.js.map   4.4 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                      manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/pngegg-64900761818ec48d3eaf814caa75c6df.png   359 KiB                    [emitted]              
+Entrypoint application = js/application-81264abc138e4a5ac726.js js/application-81264abc138e4a5ac726.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-899e108660b33d91c571.js js/server_rendering-899e108660b33d91c571.js.map
+[0] ./util.inspect (ignored) 15 bytes {application} {server_rendering} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 869 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 458 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7202.2ms | Allocations: 8567)
+Completed 200 OK in 7207ms (Views: 7205.2ms | ActiveRecord: 0.0ms | Allocations: 9401)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-04-22 10:55:50 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 387)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 25.1ms | Allocations: 2368)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 8890)
+Completed 200 OK in 106ms (Views: 45.5ms | ActiveRecord: 35.8ms | Allocations: 13164)
+
+
+Started GET "/" for ::1 at 2022-04-22 10:56:17 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 587)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/winnerscapstone/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 88c4a26192181e36960b
+Version: webpack 4.46.0
+Time: 4520ms
+Built at: 04/22/2022 10:56:23 AM
+                                                              Asset      Size            Chunks                         Chunk Names
+                             js/application-c028e8dea0e76314d283.js  4.18 MiB       application  [emitted] [immutable]  application
+                         js/application-c028e8dea0e76314d283.js.map   4.4 MiB       application  [emitted] [dev]        application
+                             js/hello_react-0889bad583e4d0a818e9.js  1.24 MiB       hello_react  [emitted] [immutable]  hello_react
+                         js/hello_react-0889bad583e4d0a818e9.js.map  1.43 MiB       hello_react  [emitted] [dev]        hello_react
+                        js/server_rendering-f95788cde191cf3a7089.js  4.18 MiB  server_rendering  [emitted] [immutable]  server_rendering
+                    js/server_rendering-f95788cde191cf3a7089.js.map   4.4 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                                      manifest.json  1.17 KiB                    [emitted]              
+media/components/assets/pngegg-64900761818ec48d3eaf814caa75c6df.png   359 KiB                    [emitted]              
+Entrypoint application = js/application-c028e8dea0e76314d283.js js/application-c028e8dea0e76314d283.js.map
+Entrypoint hello_react = js/hello_react-0889bad583e4d0a818e9.js js/hello_react-0889bad583e4d0a818e9.js.map
+Entrypoint server_rendering = js/server_rendering-f95788cde191cf3a7089.js js/server_rendering-f95788cde191cf3a7089.js.map
+[0] ./util.inspect (ignored) 15 bytes {application} {server_rendering} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 869 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 216 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {hello_react} {server_rendering} [built]
+    + 458 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6315.5ms | Allocations: 8576)
+Completed 200 OK in 6319ms (Views: 6317.9ms | ActiveRecord: 0.0ms | Allocations: 9411)
+
+
+Started GET "/EventIndex" for ::1 at 2022-04-22 10:57:13 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"EventIndex"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 538)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 6952)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 7333)
+
+
+Started GET "/" for ::1 at 2022-04-22 10:57:15 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 534)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 6930)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 7311)
+
+
