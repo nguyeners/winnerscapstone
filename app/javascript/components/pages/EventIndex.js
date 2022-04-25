@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 class EventIndex extends Component {
+
   render() {
     return(
       <>
