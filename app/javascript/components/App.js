@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import EventIndex from './pages/EventIndex'
-import Home from './pages/Home'
-import Show from './pages/Show'
-import Edit from './pages/Edit'
-import NotFound from './pages/NotFound'
-import New from './pages/New'
+import EventHome from './pages/EventHome'
+import EventShow from './pages/EventShow'
+import EventEdit from './pages/EventEdit'
+import EventNotFound from './pages/EventNotFound'
+import EventNew from './pages/EventNew'
 import {
   BrowserRouter as Router,
   Route,
@@ -63,19 +63,19 @@ class App extends Component {
       <Router>
       <Header {...this.props}/>
         <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/' component={EventHome} />
         <Route path="/EventIndex" render={(props) => <EventIndex events={this.state.events} />} />
 
         <Route path="/Show/:id"
          render={(props) => {
           let id = props.match.params.id
           let eventObj = this.state.events.find( obj => obj.id === +id)
-          return <Show eventObj={eventObj} /> }}
+          return <EventShow eventObj={eventObj} /> }}
         />
 
-        <Route path='/Edit' component={Edit} />
-        <Route path='/New' component={New} />
-        <Route component={NotFound} />
+        <Route path='/Edit' component={EventEdit} />
+        <Route path='/New' component={EventNew} />
+        <Route component={EventNotFound} />
         </Switch>
       <Footer />
       </Router>

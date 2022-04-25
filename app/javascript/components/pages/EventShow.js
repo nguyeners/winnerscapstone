@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Button } from 'reactstrap'
 
-  class Show extends Component {
+  class EventShow extends Component {
     constructor(props){
       super(props)
         this.state= {
@@ -46,4 +46,4 @@ import { Button } from 'reactstrap'
     }
   }
 
-export default Show
+export default EventShow

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import pngegg from '../assets/pngegg.png'
 
-class NotFound extends Component {
+class EventNotFound extends Component {
   render() {
     return(
       <>
@@ -12,4 +12,4 @@ class NotFound extends Component {
   }
 }
 
-export default NotFound
+export default EventNotFound
