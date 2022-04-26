@@ -4,7 +4,7 @@ import Enzyme, { shallow } from 'enzyme'
 
 import Adapter from 'enzyme-adapter-react-16'
 
-import NotFound from './NotFound'
+import EventNotFound from './EventNotFound'
 
 import pngegg from '../assets/pngegg.png'
 

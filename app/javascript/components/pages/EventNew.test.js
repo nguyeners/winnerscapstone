@@ -4,7 +4,7 @@ import Enzyme, { shallow } from 'enzyme'
 
 import Adapter from 'enzyme-adapter-react-16'
 
-import New from './New'
+import EventNew from './EventNew'
 
 Enzyme.configure({adapter: new Adapter()})
 

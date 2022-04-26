@@ -7,11 +7,7 @@ import EventShow from './pages/EventShow'
 import EventEdit from './pages/EventEdit'
 import EventNotFound from './pages/EventNotFound'
 import EventNew from './pages/EventNew'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 const mockEvents= [
   {
     id:1,

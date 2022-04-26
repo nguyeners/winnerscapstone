@@ -10,7 +10,7 @@ class EventIndex extends Component {
           render() {
             return(
               <>
-                <h1>Hello this is the event index!</h1>
+                <h1>Sport Event Listings</h1>
                   <Col sm="6">
                     {this.props.events && this.props.events.map((event, i) => {
                       return (
@@ -38,7 +38,7 @@ class EventIndex extends Component {
                                     <CardText>
                                       Event name: {event.event_name}
                                     </CardText>
-                                    
+
                                   </CardBody>
                             </Card>
                           </CardGroup>
