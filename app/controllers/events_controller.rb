@@ -11,10 +11,10 @@ class EventsController < ApplicationController
   end
 
   def create
-    if !current_user 
+    if !current_user
       render json: {status: 422, error: "Must be logged in"}
     else
-      event = user.events.create(event_params)
+      event = current_user.events.create(event_params)
       render json: event
     end
   end
@@ -32,7 +32,7 @@ class EventsController < ApplicationController
       render json: {status: 401, error: "You are not the owner of this event"}
     end
   end
-  
+
   def destroy
     event = Event.find(params[:id])
     if event.user_id == current_user.id
@@ -53,7 +53,7 @@ class EventsController < ApplicationController
 
   ###Not important yet, might be later.
   # def authorize_item
-  #   unless event.user == current_user 
+  #   unless event.user == current_user
   #     redirect_to items_path, error: 'You are not authorized'
   #   end
   # end

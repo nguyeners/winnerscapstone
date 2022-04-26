@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap'
+import { Redirect } from 'react-router-dom'
 
 class EventNew extends Component {
   constructor(props){
@@ -14,7 +15,6 @@ class EventNew extends Component {
 }
 
     handleChange = (e) => {
-      // setting state to the updated form content
       this.setState({
           [e.target.name]: e.target.value
       }
@@ -79,9 +79,11 @@ class EventNew extends Component {
             onClick={() => {
               console.log('foo', this.state)
               this.props.createEvent(this.state)
+              this.setState({submitted: true})
             }}>
               Create an Event
           </Button>
+          {this.state.submitted && <Redirect to="/EventIndex" />}
         </Form>
       </>
     )

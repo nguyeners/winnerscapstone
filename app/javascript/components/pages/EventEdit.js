@@ -1,31 +1,29 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap'
+import { Redirect } from 'react-router-dom'
 
 class EventEdit extends Component {
   constructor(props){
   super(props)
   this.state = {
-    newEvent: {
-      category: "",
-      name: "",
-      about: "",
-      image: "",
-    },
+    category: "",
+    event_name: "",
+    about: "",
+    image: "",
     submitted: false
   }
 }
 
-handleChange = (e) => {
-  // destructuring form out of state
-  let { newEvent } = this.state
-  newEvent[e.target.name] = e.target.value
-  // setting state to the updated form content
-  this.setState({newEvent: newEvent})
-}
+    handleChange = (e) => {
+      this.setState({
+          [e.target.name]: e.target.value
+      }
+    )
+  }
+
 
 handleSubmit = () => {
-  // a function call being passed from App.js
-  this.props.updateEvent(this.state.newEvent, this.props.eventObj.id)
+  this.props.updateEvent(this.state, this.props.eventObj.id)
   this.setState({submitted: true})
 }
   render() {
@@ -37,10 +35,10 @@ handleSubmit = () => {
             <Label for="Category">Category</Label>
             <Input
               type="text"
-              name="Category"
+              name="category"
               placeholder = "Category of Sport"
               onChange={this.handleChange}
-              value={this.state.newEvent.category}
+              value={this.state.category}
             />
           </FormGroup>
         </Form>
@@ -49,10 +47,10 @@ handleSubmit = () => {
             <Label for="Event Name">Event Name</Label>
             <Input
               type="text"
-              name="Event Name"
+              name="event_name"
               placeholder = "Name your event"
               onChange={this.handleChange}
-              value={this.state.newEvent.event_name}
+              value={this.state.event_name}
             />
           </FormGroup>
         </Form>
@@ -61,10 +59,10 @@ handleSubmit = () => {
             <Label for="About">About</Label>
             <Input
               type="text"
-              name="About"
+              name="about"
               placeholder = "Let other's know what your event is about."
               onChange={this.handleChange}
-              value={this.state.newEvent.about}
+              value={this.state.about}
             />
           </FormGroup>
         </Form>
@@ -73,8 +71,10 @@ handleSubmit = () => {
             <Label for="Image">Image</Label>
             <Input
               type="URL"
-              name="Image"
+              name="image"
               placeholder = "Include a photo of your team."
+              onChange={this.handleChange}
+              value={this.state.image}
             />
           </FormGroup>
           <Button
@@ -82,6 +82,7 @@ handleSubmit = () => {
             onClick={this.handleSubmit}>
               Update your Event
           </Button>
+            {this.state.submitted && <Redirect to="/EventIndex" />}
         </Form>
       </>
     )
