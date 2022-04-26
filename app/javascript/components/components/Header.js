@@ -41,7 +41,10 @@ class Header extends Component {
                 <a href={sign_out_route} className="nav-link">Sign Out</a>
               </NavItem>
               <NavItem>
-                <NavLink href="/Edit">Edit</NavLink>
+                <NavLink href="/EventEdit">Edit</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/EventNew">Create Event</NavLink>
               </NavItem>
             </>
           }

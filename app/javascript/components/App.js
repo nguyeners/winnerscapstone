@@ -64,8 +64,8 @@ class App extends Component {
           return <EventShow eventObj={eventObj} /> }}
         />
 
-        <Route path='/Edit' component={EventEdit} />
-        <Route path='/New' component={EventNew} />
+        <Route path='/EventEdit' component={EventEdit} />
+        <Route path='/EventNew' component={EventNew} />
         <Route component={EventNotFound} />
         </Switch>
       <Footer />

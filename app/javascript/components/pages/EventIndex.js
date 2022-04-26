@@ -25,7 +25,7 @@ class EventIndex extends Component {
                               height="300 px"
                             />
                               <CardBody key={event.id}>
-                              <NavLink to={`/Show/${event.id}`} key={event.id}>
+                              <NavLink to={`/EventShow/${event.id}`} key={event.id}>
                               <CardTitle tag="h5">
                                 {event.category}
                               </CardTitle>

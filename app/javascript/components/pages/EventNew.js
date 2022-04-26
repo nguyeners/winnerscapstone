@@ -1,12 +1,33 @@
 import React, { Component } from 'react'
-import {
-  Form,
-  FormGroup,
-  Input,
-  Label
-} from 'reactstrap'
+import { Form, FormGroup, Input, Label, Button } from 'reactstrap'
 
 class EventNew extends Component {
+  constructor(props){
+  super(props)
+  this.state = {
+    newEvent: {
+      category: "",
+      name: "",
+      about: "",
+      image: "",
+    },
+    submitted: false
+  }
+}
+
+  handleChange = (e) => {
+    // destructuring form out of state
+    let { newEvent } = this.state
+    newEvent[e.target.name] = e.target.value
+    // setting state to the updated form content
+    this.setState({newEvent: newEvent})
+  }
+
+  handleSubmit = () => {
+    this.props.createEvent(this.state.newEvent)
+    this.setState({submitted: true})
+  }
+
   render() {
     return(
       <>
@@ -18,6 +39,8 @@ class EventNew extends Component {
               type="text"
               name="name"
               placeholder = "Category of Sport"
+              onChange={this.handleChange}
+              value={this.state.newEvent.category}
             />
           </FormGroup>
         </Form>
@@ -28,6 +51,8 @@ class EventNew extends Component {
               type="text"
               name="name"
               placeholder = "Name your event"
+              onChange={this.handleChange}
+              value={this.state.newEvent.event_name}
             />
           </FormGroup>
         </Form>
@@ -38,6 +63,8 @@ class EventNew extends Component {
               type="text"
               name="name"
               placeholder = "Let other's know what your event is about."
+              onChange={this.handleChange}
+              value={this.state.newEvent.about}
             />
           </FormGroup>
         </Form>
@@ -50,6 +77,11 @@ class EventNew extends Component {
               placeholder = "Include a photo of your team."
             />
           </FormGroup>
+          <Button
+            name="submit"
+            onClick={this.handleSubmit}>
+              Create a New Profile
+          </Button>
         </Form>
       </>
     )
