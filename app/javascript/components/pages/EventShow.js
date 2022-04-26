@@ -17,9 +17,6 @@ import { Button } from 'reactstrap'
       }
 
     render() {
-
-      console.log("propsforshowjs",this.props)
-
       return(
         <>
         <div id = 'full-page'>

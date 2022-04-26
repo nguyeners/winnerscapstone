@@ -48,11 +48,6 @@ class App extends Component {
 
   readEvent = () => {
     this.setState({events: mockEvents})
-    // fetch("http://localhost:3000/events")
-    // .then(response => response.json())
-    //
-    // .then(eventsArray => this.setState({events: eventsArray}))
-    // .catch(errors => console.log("Event read errors:", errors))
   }
   render() {
     return(
