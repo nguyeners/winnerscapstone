@@ -26,8 +26,6 @@ class EventsController < ApplicationController
       event.update
       render json: event
     #end
-    event = user.events.update(event_params)
-    render json: event
   end
   
   #
@@ -35,12 +33,10 @@ class EventsController < ApplicationController
     event = Event.find(params[:id])
     #if current_user created event
       event.destroy
-    else
-      render json: {status: 422, error: "Must be logged in"}
+      render json: event
+    #else
+    
     #end
-  end
-
-  def show
   end
 
   ########
