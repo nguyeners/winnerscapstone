@@ -28,19 +28,19 @@ import { Button } from 'reactstrap'
               <img src={this.props.eventObj && this.props.eventObj.image} />
             </div>
             <div id = 'textbox'>
-            <h1>{this.props.eventObj && this.props.eventObj.category}</h1>
+              <h1>{this.props.eventObj && this.props.eventObj.category}</h1>
               <p>About:{this.props.eventObj && this.props.eventObj.about}</p>
               <p>Event Name: {this.props.eventObj && this.props.eventObj.event_name}</p>
-                <NavLink to={`/Edit/${this.props.eventObj && this.props.eventObj.id}`}>
-                  <Button>Edit Event Listing</Button>
-                </NavLink>
-                <NavLink to={`/EventIndex/${this.props.eventObj && this.props.eventObj.id}`}>
-                  <Button onClick = {this.handleDelete} >
-                    Delete Event Listing
-                  </Button>
-                </NavLink>
+              <NavLink to={`/Edit/${this.props.eventObj && this.props.eventObj.id}`}>
+                <Button>Edit Event Listing</Button>
+              </NavLink>
+              <NavLink to={`/EventIndex/${this.props.eventObj && this.props.eventObj.id}`}>
+                <Button onClick = {this.handleDelete} >
+                  Delete Event Listing
+                </Button>
+              </NavLink>
             </div>
-            </div>
+        </div>
         </>
       )
     }

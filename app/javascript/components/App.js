@@ -62,7 +62,7 @@ class App extends Component {
         <Route exact path='/' component={EventHome} />
         <Route path="/EventIndex" render={(props) => <EventIndex events={this.state.events} />} />
 
-        <Route path="/Show/:id"
+        <Route path="/EventShow/:id"
          render={(props) => {
           let id = props.match.params.id
           let eventObj = this.state.events.find( obj => obj.id === +id)
