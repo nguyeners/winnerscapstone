@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom'
 class EventIndex extends Component {
 
   handleSubmit = () =>  {
-    console.log("click")
   }
           render() {
             return(
@@ -13,6 +12,7 @@ class EventIndex extends Component {
                 <h1>Sport Event Listings</h1>
                   <Col sm="6">
                     {this.props.events && this.props.events.map((event, i) => {
+                      console.log(event)
                       return (
                         <div key={i}>
                         <CardGroup>

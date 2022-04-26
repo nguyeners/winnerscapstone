@@ -32,8 +32,6 @@ const mockEvents= [
   }
 ]
 
-
-
 class App extends Component {
   constructor(props){
     super(props)
@@ -49,6 +47,22 @@ class App extends Component {
   readEvent = () => {
     this.setState({events: mockEvents})
   }
+
+  createEvent = (event = {}) => {
+    console.log(event)
+    const user_id = this.props.current_user.id
+    const newEvent = {
+      user_id: user_id,
+      image: event.image,
+      category: event.category,
+      about: event.about,
+      event_name: event.event_name
+    }
+    mockEvents.push(newEvent)
+        console.log(mockEvents)
+    this.setState({events: newEvent})
+  }
+
   render() {
     return(
       <Router>
@@ -65,7 +79,7 @@ class App extends Component {
         />
 
         <Route path='/EventEdit' component={EventEdit} />
-        <Route path='/EventNew' component={EventNew} />
+        <Route path='/EventNew' component={() => <EventNew createEvent={this.createEvent}/>} />
         <Route component={EventNotFound} />
         </Switch>
       <Footer />

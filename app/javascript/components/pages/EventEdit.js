@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Form, FormGroup, Input, Label, Button } from 'reactstrap'
 
 class EventEdit extends Component {
   constructor(props){
@@ -36,7 +37,7 @@ handleSubmit = () => {
             <Label for="Category">Category</Label>
             <Input
               type="text"
-              name="name"
+              name="Category"
               placeholder = "Category of Sport"
               onChange={this.handleChange}
               value={this.state.newEvent.category}
@@ -48,7 +49,7 @@ handleSubmit = () => {
             <Label for="Event Name">Event Name</Label>
             <Input
               type="text"
-              name="name"
+              name="Event Name"
               placeholder = "Name your event"
               onChange={this.handleChange}
               value={this.state.newEvent.event_name}
@@ -60,7 +61,7 @@ handleSubmit = () => {
             <Label for="About">About</Label>
             <Input
               type="text"
-              name="name"
+              name="About"
               placeholder = "Let other's know what your event is about."
               onChange={this.handleChange}
               value={this.state.newEvent.about}
@@ -72,14 +73,14 @@ handleSubmit = () => {
             <Label for="Image">Image</Label>
             <Input
               type="URL"
-              name="name"
+              name="Image"
               placeholder = "Include a photo of your team."
             />
           </FormGroup>
           <Button
             name="submit"
             onClick={this.handleSubmit}>
-              Create a New Profile
+              Update your Event
           </Button>
         </Form>
       </>
