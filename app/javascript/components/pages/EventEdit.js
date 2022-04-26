@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Edit extends Component {
+class EventEdit extends Component {
   render() {
     return(
       <>
@@ -10,4 +10,4 @@ class Edit extends Component {
   }
 }
 
-export default Edit
+export default EventEdit
