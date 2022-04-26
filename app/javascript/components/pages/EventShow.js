@@ -17,7 +17,6 @@ import { Button } from 'reactstrap'
       }
 
       handleDelete = () => {
-        // a function call being passed from App.js
         this.props.deleteEvent(this.props.eventObj.id)
         this.setState({submitted: true})
       }

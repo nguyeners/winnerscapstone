@@ -77,7 +77,6 @@ class EventNew extends Component {
           <Button
             name="submit"
             onClick={() => {
-              console.log('foo', this.state)
               this.props.createEvent(this.state)
               this.setState({submitted: true})
             }}>
