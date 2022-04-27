@@ -14,6 +14,9 @@
  *= require_self
  */
 @import 'bootstrap';
+body {
+  margin: 1rem;
+}
 
 
 .footer {
@@ -26,8 +29,13 @@
   padding: 10px;
   text-align: center;
   font-size: 17px;
+  color: gold;
 }
 
 .intropic {
   float: right;
+}
+
+.header {
+  color: gold
 }

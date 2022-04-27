@@ -8,31 +8,6 @@ import EventEdit from './pages/EventEdit'
 import EventNotFound from './pages/EventNotFound'
 import EventNew from './pages/EventNew'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-const mockEvents= [
-  {
-    id:1,
-    image: "https://images.unsplash.com/photo-1535116117846-4d672a4431d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    category: 'Soccer',
-    about: 'playing soccer at the park',
-    event_name: 'Omars soccer club'
-  },
-  {
-    id:2,
-    image: "https://images.unsplash.com/photo-1561917443-6c5a9a4fca6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2186&q=80",
-    category: 'Basketball',
-    about: 'playing basketball at a different park',
-    event_name: 'Kendras basketball club'
-  },
-  {
-    id:3,
-    image: "https://images.unsplash.com/photo-1591337819702-5c21810edd47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    category: 'Frisbee',
-    about: 'playing ',
-    event_name: 'Paulas frisbee club'
-  }
-]
-
-
 
 class App extends Component {
   constructor(props){
@@ -47,8 +22,50 @@ class App extends Component {
   }
 
   readEvent = () => {
-    this.setState({events: mockEvents})
+    fetch("http://localhost:3000/events")
+    .then(response => response.json())
+    .then(eventsArray => this.setState({events: eventsArray}))
+    .catch(errors => console.log("Events read errors:", errors))
   }
+
+  createEvent = (newEvent) => {
+    fetch("http://localhost:3000/events", {
+      body: JSON.stringify(newEvent),
+      headers: {
+        "Content-Type": "application/json"
+      },
+      method: "POST"
+    })
+    .then(response => response.json())
+    .then(payload => this.readEvent())
+    .catch(errors => console.log("Events create errors:", errors))
+  }
+
+  updateEvent = (events, id) => {
+  fetch(`http://localhost:3000/events/${id}`, {
+    // converting an object to a string
+    body: JSON.stringify(events),
+    headers: {
+      "Content-Type": "application/json"
+    },
+    method: "PATCH"
+  })
+  .then(response => response.json())
+  .then(payload => this.readEvent())
+  .catch(errors => console.log("Events update errors:", errors))
+}
+
+deleteEvent = (id) => {
+  fetch(`http://localhost:3000/events/${id}`, {
+    headers: {
+      "Content-Type": "application/json"
+    },
+    method: "DELETE"
+  })
+  .then(response => response.json())
+  .then(payload => this.readEvent())
+  .catch(errors => console.log("delete errors:", errors))
+}
   render() {
     return(
       <Router>
@@ -61,11 +78,15 @@ class App extends Component {
          render={(props) => {
           let id = props.match.params.id
           let eventObj = this.state.events.find( obj => obj.id === +id)
-          return <EventShow eventObj={eventObj} /> }}
+          return <EventShow eventObj={eventObj} deleteEvent = {this.deleteEvent} /> }}
         />
 
-        <Route path='/Edit' component={EventEdit} />
-        <Route path='/New' component={EventNew} />
+        <Route path='/EventEdit/:id'
+        render={(props) => {
+          let id = props.match.params.id
+          let eventObj = this.state.events.find( obj => obj.id === +id)
+          return <EventEdit updateEvent={this.updateEvent} eventObj={eventObj}/>}} />
+        <Route path='/EventNew' component={() => <EventNew createEvent={this.createEvent}/>} />
         <Route component={EventNotFound} />
         </Switch>
       <Footer />

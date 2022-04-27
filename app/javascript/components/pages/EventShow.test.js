@@ -4,7 +4,7 @@ import Enzyme, { shallow } from 'enzyme'
 
 import Adapter from 'enzyme-adapter-react-16'
 
-import Show from './Show'
+import EventShow from './EventShow'
 
 Enzyme.configure({adapter: new Adapter()})
 
