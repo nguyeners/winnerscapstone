@@ -12,7 +12,7 @@ class Header extends Component {
       } = this.props
     return(
 
-      <div>
+      <div className="header">
         <h1>Teamly</h1>
         <Nav>
           <NavItem>

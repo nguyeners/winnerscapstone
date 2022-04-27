@@ -6,6 +6,7 @@ class Footer extends Component {
       <>
       <div className="footer">
         <p>© 2022 | Nguyeners Teamly App | Omar, Kendra, and Paula</p>
+          <img src="https://avatars.githubusercontent.com/u/103693775?s=400&u=1cebcaed5a2d7a998a48ff4cf9a91ebf827d78b3&v=4" height="100px" width="150px"/>
       </div>
       </>
     )
