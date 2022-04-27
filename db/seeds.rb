@@ -14,7 +14,7 @@ events = [
     event_name: 'Kendra\'s basketball club'
   },
   {
-    image: nil,
+    image: ni,
     category: 'Frisbee',
     about: 'playing ',
     event_name: 'Paula\'s frisbee club'
