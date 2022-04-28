@@ -22,14 +22,14 @@ class App extends Component {
   }
 
   readEvent = () => {
-    fetch("/events")
+    fetch("http://localhost:3000/events")
     .then(response => response.json())
     .then(eventsArray => this.setState({events: eventsArray}))
     .catch(errors => console.log("Events read errors:", errors))
   }
 
   createEvent = (newEvent) => {
-    fetch("/events", {
+    fetch("http://localhost:3000/events", {
       body: JSON.stringify(newEvent),
       headers: {
         "Content-Type": "application/json"
@@ -42,7 +42,7 @@ class App extends Component {
   }
 
   updateEvent = (events, id) => {
-  fetch(`/events/${id}`, {
+  fetch(`http://localhost:3000/events/${id}`, {
     // converting an object to a string
     body: JSON.stringify(events),
     headers: {
@@ -56,7 +56,7 @@ class App extends Component {
 }
 
 deleteEvent = (id) => {
-  fetch(`/events/${id}`, {
+  fetch(`http://localhost:3000/events/${id}`, {
     headers: {
       "Content-Type": "application/json"
     },

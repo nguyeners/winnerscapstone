@@ -1,12 +1,12 @@
 class EventsController < ApplicationController
 
   def index
-    events = Event.all
+    events = Event.all.includes(:user)
     render json: events
   end
 
   def show
-    event = Event.find(params[:id])
+    event = Event.find(params[:id]).includes(:user)
     render json: event
   end
 
