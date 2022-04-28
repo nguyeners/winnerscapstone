@@ -7,6 +7,7 @@ import EventShow from './pages/EventShow'
 import EventEdit from './pages/EventEdit'
 import EventNotFound from './pages/EventNotFound'
 import EventNew from './pages/EventNew'
+import UserProfilePage from './pages/UserProfilePage'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 class App extends Component {
@@ -87,6 +88,7 @@ deleteEvent = (id) => {
           let eventObj = this.state.events.find( obj => obj.id === +id)
           return <EventEdit updateEvent={this.updateEvent} eventObj={eventObj}/>}} />
         <Route path='/EventNew' component={() => <EventNew createEvent={this.createEvent}/>} />
+        <Route path='/UserProfilePage/:id' component={() => <UserProfilePage {...this.props}/>} />
         <Route component={EventNotFound} />
         </Switch>
       <Footer />
