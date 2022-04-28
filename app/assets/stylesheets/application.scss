@@ -44,3 +44,31 @@ body {
   display: inline-block;
   width: 50%;
 }
+.container {
+ padding: 20px 40px 40px;
+ max-width: 640px;
+ display: flex;
+ &__image {
+   margin: 20px 30px 0 0;
+   width: 200px;
+   object-fit: contain;
+   align-self: flex-start;
+ }
+ &__text {
+   flex: 1 1 auto;
+ }
+}
+.container2 {
+ padding: 20px 40px 40px;
+ max-width: 640px;
+ display: flex;
+ &__image {
+   margin: 20px 30px 0 0;
+   width: 200px;
+   object-fit: contain;
+   align-self: flex-start;
+ }
+ &__text {
+   flex: 1 1 auto;
+ }
+}

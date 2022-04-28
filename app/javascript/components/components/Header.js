@@ -23,8 +23,9 @@ class Header extends Component {
             <NavLink href="/EventIndex">Event Listing</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">About Us</NavLink>
+            <NavLink href="/AboutUs">About Us</NavLink>
           </NavItem>
+
           { !logged_in &&
             <>
               <NavItem>
