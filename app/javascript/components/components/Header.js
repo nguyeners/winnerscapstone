@@ -13,7 +13,8 @@ class Header extends Component {
     return(
 
       <div className="header">
-        <h1>Teamly</h1>
+        <h1 className="welcome">Teamly</h1>
+        <h2 className="welcome" align="right">Hello {logged_in ? this.props.current_user.email : 'guest'}!</h2>
         <Nav>
           <NavItem>
             <NavLink href="/">Home</NavLink>
