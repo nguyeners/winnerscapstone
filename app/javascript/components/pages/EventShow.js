@@ -15,7 +15,10 @@ import { Button } from 'reactstrap'
           submitted: false
         }
       }
-
+      handleDelete = () => {
+            this.props.deleteEvent(this.props.eventObj.id)
+            this.setState({submitted: true})
+            }
     render() {
       return(
         <>
@@ -28,7 +31,7 @@ import { Button } from 'reactstrap'
               <h1>{this.props.eventObj && this.props.eventObj.category}</h1>
               <p>About:{this.props.eventObj && this.props.eventObj.about}</p>
               <p>Event Name: {this.props.eventObj && this.props.eventObj.event_name}</p>
-              <NavLink to={`/Edit/${this.props.eventObj && this.props.eventObj.id}`}>
+              <NavLink to={`/EventEdit/${this.props.eventObj && this.props.eventObj.id}`}>
                 <Button>Edit Event Listing</Button>
               </NavLink>
               <NavLink to={`/EventIndex/${this.props.eventObj && this.props.eventObj.id}`}>
