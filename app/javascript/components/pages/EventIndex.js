@@ -6,6 +6,7 @@ class EventIndex extends Component {
   render() {
     return (
       <>
+        <div id = 'full-page'>
         <h1>Sport Event Listings</h1>
         <Col sm="6">
           {this.props.events && this.props.events.map((event, i) => {
@@ -13,13 +14,13 @@ class EventIndex extends Component {
             return (
               <div key={i}>
                 <CardGroup>
-                  <Card>
-                    <CardImg
+                  <Card id = 'indexcard'>
+                    <CardImg id = 'index-image'
                       alt="Card image cap"
                       src={event.image}
                       top
-                      width="300 px"
-                      height="300 px"
+                      width="100 px"
+                      height="100 px"
                     />
                     <CardBody key={event.id}>
                       <NavLink to={`/EventShow/${event.id}`} key={event.id}>
@@ -44,6 +45,7 @@ class EventIndex extends Component {
             )
           })}
         </Col>
+        </div>
       </>
     )
   }

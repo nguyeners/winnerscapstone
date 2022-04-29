@@ -12,8 +12,8 @@ class Header extends Component {
       } = this.props
     return(
 
-      <div className="header">
-        <h1 className="welcome">Teamly</h1>
+      <div className="header" id = 'full-page'>
+        <h1 className="welcome">TEAMLY</h1>
         <h2 className="welcome" align="right">Hello {logged_in ? this.props.current_user.email : 'guest'}!</h2>
         <Nav>
           <NavItem>

@@ -1,18 +1,8 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+
+
 @import 'bootstrap';
 body {
   margin: 1rem;
@@ -53,22 +43,50 @@ body {
    width: 200px;
    object-fit: contain;
    align-self: flex-start;
+   border-radius: 100%;
  }
  &__text {
    flex: 1 1 auto;
  }
 }
+
 .container2 {
  padding: 20px 40px 40px;
- max-width: 640px;
+ max-width: 1000px;
  display: flex;
- &__image {
-   margin: 20px 30px 0 0;
-   width: 200px;
-   object-fit: contain;
-   align-self: flex-start;
+ &__image2 {
+   position: absolute;
+   width: 319px;
+   height: 322px;
+   left: 1152px;
+   top: 972px;
+   border-radius: 100%;
  }
- &__text {
+ &__text2 {
    flex: 1 1 auto;
  }
+}
+
+#full-page {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#indexcard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#index-image {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  object-position: 90% 0;
+}
+
+#form-new {
+  width: 700px;
 }
