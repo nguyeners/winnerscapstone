@@ -129,11 +129,15 @@ body {
 
 #h1-eventindexpage {
   margin-bottom: 40px;
+  color: gold;
 }
 
 #card-eventindexpage {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+#eventindex-background {
+  background-image: url(https://images.unsplash.com/photo-1546608235-3310a2494cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=676&q=80);
 }
 /* ============= EVENT SHOW PAGE ============== */
 #edit-button {
@@ -148,4 +152,19 @@ body {
 #h1-homepage {
   margin-bottom: 50px;
   text-align: center;
+}
+// #basketball {
+//   height: 100px;
+//   width: 100px;
+// }
+.hometext {
+  text-align: center;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
 }
