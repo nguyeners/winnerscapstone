@@ -10,4 +10,3 @@ tmp
 yarn-debug.log*
 .yarn-integrity
 log
-/coverage
