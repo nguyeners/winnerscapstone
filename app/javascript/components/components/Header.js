@@ -15,6 +15,7 @@ class Header extends Component {
       <div className="header" id = 'full-page'>
         <h1 className="welcome">TEAMLY</h1>
         <h2 className="welcome" align="right">Hello {logged_in ? this.props.current_user.email : 'guest'}!</h2>
+        <img src= "https://images.unsplash.com/photo-1569517282132-25d22f4573e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1866&q=80" height="100px" width="100px"/>
         <Nav>
           <NavItem>
             <NavLink href="/">Home</NavLink>
