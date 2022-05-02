@@ -29,6 +29,7 @@ handleSubmit = () => {
   render() {
     return(
       <>
+        <div id = 'full-page'>
         <h1>Hello this is the edit page!</h1>
         <Form>
           <FormGroup>
@@ -84,6 +85,7 @@ handleSubmit = () => {
           </Button>
             {this.state.submitted && <Redirect to="/EventIndex" />}
         </Form>
+        </div>
       </>
     )
   }

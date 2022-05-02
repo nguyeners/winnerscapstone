@@ -26,6 +26,7 @@ class EventNew extends Component {
   render() {
     return(
       <>
+        <div id = 'full-page'>
         <h1>Hello this is the new page!</h1>
         <Form>
           <FormGroup>
@@ -84,6 +85,7 @@ class EventNew extends Component {
           </Button>
           {this.state.submitted && <Redirect to="/EventIndex" />}
         </Form>
+        </div>
       </>
     )
   }

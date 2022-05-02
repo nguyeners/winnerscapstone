@@ -19,6 +19,7 @@ import { Button } from 'reactstrap'
             this.props.deleteEvent(this.props.eventObj.id)
             this.setState({submitted: true})
             }
+            
     render() {
       return(
         <>
