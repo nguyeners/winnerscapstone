@@ -6,14 +6,14 @@ class EventIndex extends Component {
   render() {
     return (
       <>
-        <div id = 'full-page'>
-        <h1>Sport Event Listings</h1>
+        <div id = 'full-page' id = 'eventindex-background'>
+        <h1 id = 'h1-eventindexpage'>Sport Event Listings</h1>
         <Col sm="6">
           {this.props.events && this.props.events.map((event, i) => {
             console.log(event)
             return (
               <div key={i}>
-                <CardGroup>
+                <CardGroup id = 'card-eventindexpage'>
                   <Card id = 'indexcard'>
                     <CardImg id = 'index-image'
                       alt="Card image cap"

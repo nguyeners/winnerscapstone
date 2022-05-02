@@ -19,7 +19,7 @@ import { Button } from 'reactstrap'
             this.props.deleteEvent(this.props.eventObj.id)
             this.setState({submitted: true})
             }
-            
+
     render() {
       return(
         <>
@@ -33,10 +33,10 @@ import { Button } from 'reactstrap'
               <p>About:{this.props.eventObj && this.props.eventObj.about}</p>
               <p>Event Name: {this.props.eventObj && this.props.eventObj.event_name}</p>
               <NavLink to={`/EventEdit/${this.props.eventObj && this.props.eventObj.id}`}>
-                <Button>Edit Event Listing</Button>
+                <Button id = 'edit-button'>Edit Event Listing</Button>
               </NavLink>
               <NavLink to={`/EventIndex/${this.props.eventObj && this.props.eventObj.id}`}>
-                <Button onClick = {this.handleDelete} >
+                <Button onClick = {this.handleDelete} id = 'delete-button'>
                   Delete Event Listing
                 </Button>
               </NavLink>

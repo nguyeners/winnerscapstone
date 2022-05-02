@@ -8,7 +8,7 @@ body {
   margin: 1rem;
 }
 
-
+/* ============= FOOTER ============== */
 .footer {
   max-width: 100%;
   height: 55px;
@@ -26,14 +26,21 @@ body {
   float: right;
 }
 
+/* ============= HEADER ============== */
 .header {
   color: gold
+}
+
+#nav-text{
+  font-size: 25px;
 }
 
 .welcome {
   display: inline-block;
   width: 50%;
 }
+
+/* ============= ABOUT US ============== */
 .container {
  // padding: 20px 40px 40px;
  // max-width: 1000px;
@@ -96,14 +103,17 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+/* ============= EVENT INDEX ============== */
 #indexcard {
   display: flex;
   flex-wrap: wrap;
+  height: 400px;
+  width: 600px;
 }
 
 #index-image {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   object-fit: cover;
   object-position: 90% 0;
 }
@@ -115,4 +125,27 @@ body {
   background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#h1-eventindexpage {
+  margin-bottom: 40px;
+}
+
+#card-eventindexpage {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* ============= EVENT SHOW PAGE ============== */
+#edit-button {
+  margin-right: 15px;
+}
+
+#delete-button {
+  margin-left: 15px;
+}
+/* ============= HOME ============== */
+
+#h1-homepage {
+  margin-bottom: 50px;
+  text-align: center;
 }
