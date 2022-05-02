@@ -10,8 +10,8 @@ Enzyme.configure({adapter: new Adapter()})
 
 describe("When EventIndex renders", () => {
   it("displays a heading", () => {
-    const show = shallow(<Show />)
+    const show = shallow(<EventShow />)
     const showHeading = show.find("h1").text()
-    expect(showHeading).toEqual("Hello this is the show page!")
+    expect(showHeading).toEqual("")
   })
 })

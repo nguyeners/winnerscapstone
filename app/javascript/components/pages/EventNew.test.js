@@ -10,7 +10,7 @@ Enzyme.configure({adapter: new Adapter()})
 
 describe("When EventIndex renders", () => {
   it("displays a heading", () => {
-    const newRendered = shallow(<New />)
+    const newRendered = shallow(<EventNew />)
     const newHeadingText = newRendered.find("h1").text()
     expect(newHeadingText).toEqual("Hello this is the new page!")
   })
