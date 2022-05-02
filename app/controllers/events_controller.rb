@@ -1,7 +1,7 @@
 class EventsController < ApplicationController
 
   def index
-    events = Event.all.includes(:user)
+    events = Event.all
     render json: events
   end
 
@@ -12,10 +12,14 @@ class EventsController < ApplicationController
 
   def create
     if !current_user
-      render json: {status: 422, error: "Must be logged in"}
+      render json: {error: "Must be logged in"}, status: 422
     else
       event = current_user.events.create(event_params)
-      render json: event
+      if event.valid?
+        render json: event
+      else
+        render json: event.errors, status: 422
+      end
     end
   end
 
