@@ -12,6 +12,6 @@ describe("When EventIndex renders", () => {
   it("displays a heading", () => {
     const eventRendered = shallow(<EventIndex />)
     const eventHeading = eventRendered.find("h1").text()
-    expect(eventHeading).toEqual("Hello this is the event index!")
+    expect(eventHeading).toEqual("Sport Event Listings")
   })
 })
