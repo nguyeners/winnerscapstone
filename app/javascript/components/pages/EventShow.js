@@ -2,45 +2,45 @@ import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Button } from 'reactstrap'
 
-class EventShow extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      newEvent: {
-        image: "",
-        category: "",
-        about: "",
-        event_name: ""
-      },
-      submitted: false
-    }
-  }
-  handleDelete = () => {
-    this.props.deleteEvent(this.props.eventObj.id)
-    this.setState({ submitted: true })
-  }
+  class EventShow extends Component {
+    constructor(props){
+      super(props)
+        this.state= {
+          newEvent: {
+            image: "",
+            category: "",
+            about: "",
+            event_name: ""
+          },
+          submitted: false
+        }
+      }
+      handleDelete = () => {
+            this.props.deleteEvent(this.props.eventObj.id)
+            this.setState({submitted: true})
+            }
 
-  render() {
-    return (
-      <>
-        <div id='full-page'>
+    render() {
+      return(
+        <>
+        <div id = 'full-page'>
           <h3>Events</h3>
-          <div id='showpicture'>
-            <img src={this.props.eventObj && this.props.eventObj.image} />
-          </div>
-          <div id='textbox'>
-            <h1>{this.props.eventObj && this.props.eventObj.category}</h1>
-            <p>About:{this.props.eventObj && this.props.eventObj.about}</p>
-            <p>Event Name: {this.props.eventObj && this.props.eventObj.event_name}</p>
-            <NavLink to={`/EventEdit/${this.props.eventObj && this.props.eventObj.id}`}>
-              <Button>Edit Event Listing</Button>
-            </NavLink>
-            <NavLink to={`/EventIndex/${this.props.eventObj && this.props.eventObj.id}`}>
-              <Button onClick={this.handleDelete} >
-                Delete Event Listing
-              </Button>
-            </NavLink>
-          </div>
+            <div id = 'showpicture'>
+              <img src={this.props.eventObj && this.props.eventObj.image} />
+            </div>
+            <div id = 'textbox'>
+              <h1>{this.props.eventObj && this.props.eventObj.category}</h1>
+              <p>About:{this.props.eventObj && this.props.eventObj.about}</p>
+              <p>Event Name: {this.props.eventObj && this.props.eventObj.event_name}</p>
+              <NavLink to={`/EventEdit/${this.props.eventObj && this.props.eventObj.id}`}>
+                <Button id = 'edit-button'>Edit Event Listing</Button>
+              </NavLink>
+              <NavLink to={`/EventIndex/${this.props.eventObj && this.props.eventObj.id}`}>
+                <Button onClick = {this.handleDelete} id = 'delete-button'>
+                  Delete Event Listing
+                </Button>
+              </NavLink>
+            </div>
         </div>
       </>
     )

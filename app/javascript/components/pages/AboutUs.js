@@ -13,7 +13,7 @@ class AboutUs extends Component {
       <img className="container__image"
       src={kendra} id='box' height = '300px' width = '250px'/>
       <div className="container__text">
-      <h6> Kendra's Bio. </h6>
+      <h6> Full time barista turned developer, Kendra is thrilled to be working on Teamly with her teammates. She believes that it's a start in connecting communities with common interests. </h6>
       </div>
     </div>
     <div className="container2">
@@ -27,7 +27,7 @@ class AboutUs extends Component {
       <img className="container__image3"
       src={paulapic} id='box' height = '300px' width = '250px'/>
       <div className="container__text2">
-      <h6> Paula's Bio.</h6>
+      <h6> Paula is a recent LEARN Academy student who loves to read, paint, and walks around San Diego. When making this app it was really important to her that the app her and her teeam created was very inlcusive and dived in on the idea of unity. Growing up in central San Diego there would be times during the summer where Paula could hear cheers from across the street or from the alley right behind the apartments. Paula remembered random people coming together of all ages and bonding over a sport in the summer. That was the goal and vision of the app. To bring strangers together. </h6>
       </div>
     </div>
     </div>
