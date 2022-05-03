@@ -42,9 +42,9 @@ import { Button } from 'reactstrap'
               </NavLink>
             </div>
         </div>
-        </>
-      )
-    }
+      </>
+    )
   }
+}
 
 export default EventShow
