@@ -21,9 +21,17 @@ body {
   font-size: 17px;
   color: gold;
 }
-
+// .footerbackground{
+//   background-image: url(https://images.unsplash.com/photo-1516731566880-919c39006c9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+//   background-size: 100% 100%;
+//   background-attachment: fixed;
+// }
 .intropic {
   float: right;
+}
+.row3{
+  display: flex;
+  justify-content: center;
 }
 
 /* ============= HEADER ============== */
@@ -31,13 +39,23 @@ body {
   color: gold
 }
 
+
 #nav-text{
   font-size: 25px;
+  color: black;
+  text-shadow: 2px 2px gray;
 }
 
 .welcome {
   display: inline-block;
   width: 50%;
+  color: black;
+}
+.headerbackground{
+  background-image: url(https://images.unsplash.com/photo-1516118461620-03680a03bd27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2946&q=80);
+  background-size: 100% 100%;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
 }
 
 /* ============= ABOUT US ============== */
@@ -153,12 +171,15 @@ body {
   margin-bottom: 50px;
   text-align: center;
 }
-// #basketball {
-//   height: 100px;
-//   width: 100px;
-// }
+
 .hometext {
   text-align: center;
+  color: white;
+}
+.hometext2 {
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
 }
 .row {
   display: flex;
@@ -167,4 +188,26 @@ body {
 .column {
   flex: 25%;
   padding: 5px;
+}
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.column2 {
+  // flex: 25%;
+  padding: 10px;
+}
+.hometext3 {
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
+}
+.backgroundpic {
+  background-image: url(https://images.unsplash.com/photo-1516118461620-03680a03bd27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2946&q=80);
+  background-size: cover;
+}
+
+#secondLast{
+  margin-bottom: 20px;
 }

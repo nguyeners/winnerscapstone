@@ -13,7 +13,7 @@ class AboutUs extends Component {
       <img className="container__image"
       src={kendra} id='box' height = '300px' width = '250px'/>
       <div className="container__text">
-      <h6> Kendra's Bio. </h6>
+      <h6> Full time barista turned developer, Kendra is thrilled to be working on Teamly with her teammates. She believes that it's a start in connecting communities with common interests. </h6>
       </div>
     </div>
     <div className="container2">
